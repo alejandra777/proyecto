@@ -8,17 +8,24 @@
         android:label="SWEET LIFE"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-
-        <activity android:name=".QUEQUE" ></activity>
-        <activity android:name=".BRAZO_DE_REINA" />
-        <activity android:name=".ROSCAS" />
-        <activity android:name=".REGISTRO" />
-        <activity android:name=".RECETAS" />
-
-
-        <activity android:name=".MainActivity" >
-
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".TORTA_DE_YOGURT"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CACHITOS"
+            android:screenOrientation="portrait" />
+        <activity android:name=".QUEQUE"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BRAZO_DE_REINA"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ROSCAS"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".REGISTRO"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RECETAS"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".splash">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

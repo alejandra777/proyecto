@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".QUEQUE">
+    tools:context=".CACHITOS">
 
     <LinearLayout
         android:layout_width="358dp"
@@ -14,10 +14,9 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152">
+        app:layout_constraintTop_toTopOf="parent" >
 
         <ScrollView
             android:layout_width="match_parent"
@@ -26,10 +25,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical" >
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/textView67"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-black"
@@ -37,69 +36,69 @@
                     android:textColor="#FA0255" />
 
                 <TextView
-                    android:id="@+id/textView17"
+                    android:id="@+id/textView68"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• 500gr de harina con polvo de hornear"
+                    android:text="• 750 gr de harina"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView31"
+                    android:id="@+id/textView69"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• 375gr de azúcar"
+                    android:text="• 200gr de margarina"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView36"
+                    android:id="@+id/textView70"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• 250 margarina"
+                    android:text="• 1/2 taza de leche"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView41"
+                    android:id="@+id/textView71"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• 6 huevos"
+                    android:text="• 150gr azúcar flor"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView42"
+                    android:id="@+id/textView72"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• 1 taza de leche"
+                    android:text="• 4 huevos"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView43"
+                    android:id="@+id/textView73"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• jugo y ralladura de 1 limón"
+                    android:text="• 1 pizca de sal"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView44"
+                    android:id="@+id/textView74"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• Vainilla"
+                    android:text="• manjar"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView45"
+                    android:id="@+id/textView75"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="• Molde y papel mantequilla"
+                    android:text="• Moldes para cachitos"
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView46"
+                    android:id="@+id/textView76"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:visibility="invisible" />
 
                 <TextView
-                    android:id="@+id/textView56"
+                    android:id="@+id/textView77"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-black"
@@ -107,78 +106,71 @@
                     android:textColor="#792F86" />
 
                 <TextView
-                    android:id="@+id/textView57"
+                    android:id="@+id/textView78"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1) Precalentar el horno a 250C°."
+                    android:text="1) En un bol incorporar azúcar flor y margarina, hasta formar una pasta, agregar yemas de una en una sin dejar de batir."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView58"
+                    android:id="@+id/textView79"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2) Dividir los huevos en yemas y claras."
+                    android:text="2) Batir las claras, agregarlas a la mezcla alternando con el harina de ser necesario agregar la leche para que la masa quede suave."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView59"
+                    android:id="@+id/textView80"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3) En un bol incorporar el azúcar y la margarina hasta formar una pasta."
+                    android:text="3) Ya formada la masa, uslerearla y cortarlas en tiras largas de un grosor adecuado."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView60"
+                    android:id="@+id/textView81"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="4) Incorporar las yemas de a una junto al limón, ralladura y vainilla."
+                    android:text="4) Enmantequillar los moldes e ir enrollando las tiras de masa en él."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView61"
+                    android:id="@+id/textView82"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="5) Luego incorporar el harina alternando con la leche."
+                    android:text="5) Esparcir aceite sobre la lata del horno."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView62"
+                    android:id="@+id/textView83"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="6) Batir las claras e incorporarla la mezcla en forma envolvente."
+                    android:text="6) Pintar los cachitos con yema de huevo  y colocar sobre la lata."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView63"
+                    android:id="@+id/textView84"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="7) Enmantequillar el molde y agregar la mezcla."
+                    android:text="7) Hornear ´por 18 min a 150C°, dejar enfriar y rellenar con manjar."
                     android:textColor="#000407" />
 
                 <TextView
-                    android:id="@+id/textView64"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="8) Bajar temperatura del horno a 200C° y hornear entre 40 a 50 min (revisar con un palo de brocheta)."
-                    android:textColor="#000407" />
-
-                <TextView
-                    android:id="@+id/textView65"
+                    android:id="@+id/textView85"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:visibility="invisible" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/imageView4"
                     android:layout_width="386dp"
                     android:layout_height="150dp"
-                    app:srcCompat="@drawable/queque" />
+                    app:srcCompat="@drawable/cachitos" />
 
                 <TextView
-                    android:id="@+id/textView66"
+                    android:id="@+id/textView86"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:visibility="invisible" />
+                    android:visibility="invisible" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

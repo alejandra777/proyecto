@@ -12,6 +12,9 @@ public class RECETAS extends AppCompatActivity {
     Button ROSCAS;
     Button BRAZO_DE_REINA;
     Button QUEQUE;
+    Button CACHITOS;
+    Button TORTA_DE_YOGURT;
+    Button PAN_DE_PASCUA;
 
 
     @Override
@@ -51,7 +54,29 @@ public class RECETAS extends AppCompatActivity {
             }
 
         });
+        CACHITOS =(Button)findViewById(R.id.btn_cachitos);
+
+        CACHITOS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent CACHITOS= new Intent(RECETAS.this, CACHITOS.class);
+                startActivity(CACHITOS);
+            }
+
+        });
+        TORTA_DE_YOGURT =(Button)findViewById(R.id.btn_ty);
+
+        TORTA_DE_YOGURT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent TORTA_DE_YOGURT= new Intent(RECETAS.this, TORTA_DE_YOGURT.class);
+                startActivity(TORTA_DE_YOGURT);
+            }
+
+        });
+
 
 
     }
 }
+
